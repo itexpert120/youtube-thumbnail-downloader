@@ -24,6 +24,7 @@ export function ThumbnailViewer({
             style={{
               objectFit: "cover",
             }}
+            className="rounded-md"
           />
           <Button>
             <a href={thumbnailSource} target="_blank" download="Thumbnail">

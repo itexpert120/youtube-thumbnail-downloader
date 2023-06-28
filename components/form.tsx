@@ -19,7 +19,16 @@ export function Form({ link, handleSubmit, setLink }: FormProps) {
         value={link}
         onChange={(e) => setLink(e.target.value)}
       />
-      <Button onClick={handleSubmit} type="submit">
+      <p
+        className="text-sm text-muted-foreground"
+        onClick={() => setLink("https://www.youtube.com/watch?v=dQw4w9WgXcQ")}
+      >
+        <span className="font-bold">Sample YouTube Link: </span>
+        <span className="underline underline-offset-4 cursor-pointer">
+          https://www.youtube.com/watch?v=dQw4w9WgXcQ
+        </span>
+      </p>
+      <Button onClick={handleSubmit} type="submit" className="mt-4">
         Get Thumbnail
       </Button>
     </div>
