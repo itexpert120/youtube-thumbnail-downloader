@@ -16,7 +16,7 @@ export function SiteFooter() {
           </Link>
           . The source code is available on{" "}
           <Link
-            href="https://github.com/itexpert120/youtube-downloader"
+            href="https://github.com/itexpert120/youtube-thumbnail-downloader"
             target="_blank"
             rel="noreferrer"
             className="font-medium underline underline-offset-4"
